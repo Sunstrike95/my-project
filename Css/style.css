@@ -1,0 +1,80 @@
+/** main page (home) */
+/*! NEED THIS FOR ALL CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*TODO BODY OF THE HOME FILE */
+body {
+  font-family: fantasy;
+  background-image: url(../images/forest.jpg);
+}
+
+/*TODO Nav bar important for all the pages */
+.nav a {
+  color: black;
+  font-size: 26px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 10px;
+  padding: 11px;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+/** Nav hover effect settings */
+.nav a:hover {
+  background-color: #ddd;
+  color: rgba(117, 122, 38, 0.568);
+  border-color: rgba(67, 37, 238, 0.37);
+  border-radius: 2px;
+}
+/**TODO The parent for the text box grids */
+.parent {
+  align-items: start;
+  display: grid;
+  gap: 21px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: auto;
+  max-width: 80vw;
+}
+/** The text box divs regarding the grids */
+.divL1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.divL2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.divL3 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+/**Article section*/
+.lorem {
+  border-radius: 15px;
+  border: 3px solid rgb(146, 86, 62);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17px;
+  height: 100%;
+  margin-top: 1rem;
+  margin-top: 1rem;
+  padding: 9px;
+  width: 100%;
+}
+
+/*TODO Need to use this for the text box grid headers */
+.lorem h2 {
+  color: #ddd;
+  font-size: 26px;
+  margin-top: 6px;
+  text-shadow: 2px 2px black;
+}
+
+/*? .lorem p {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+} */

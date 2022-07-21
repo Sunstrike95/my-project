@@ -1,0 +1,23 @@
+.body {
+  background-image: url(../images/TableM.jpg);
+}
+
+/*TODO (About page) Nav bar */
+/** Nav bar layout */
+.nav a {
+  color: black;
+  font-size: 26px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 10px;
+  padding: 11px;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+/**Hover settings for Nav */
+.nav a:hover {
+  background-color: #ddd;
+  color: rgba(117, 122, 38, 0.568);
+  border-color: rgba(67, 37, 238, 0.37);
+  border-radius: 2px;
+}
