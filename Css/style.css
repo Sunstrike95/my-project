@@ -64,8 +64,6 @@
   transform: translate(-50%, -50%);
   text-transform: uppercase;
 }
-
-
 .content a {
   background: #85c1ee;
   padding: 10px 24px;
@@ -157,11 +155,6 @@
   animation-delay: 12s;
   z-index: 600;
 }
-
-
-
-
-
 
 footer {
 height: auto;
